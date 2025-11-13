@@ -1,5 +1,5 @@
 let KB = null;
-const chatBody = document.getElementById('chat-body');
+const chatBody = document.getElementById('chat-box');
 const userInput = document.getElementById('user-input');
 const sendBtn = document.getElementById('send-btn');
 const quickActions = document.getElementById('quick-actions');
@@ -205,7 +205,7 @@ function answerFromKB(input){
   }
 
   // Not found fallback
-  return "I'm sorry, I don't have information on that. Can you ask about school events, admissions, faculty, or facilities?";
+  return "I'm sorry, I don't have information on that. try contacting the school directly for more details.";
 }
 
 // Small formatter to make answers friendlier and produce follow-ups
@@ -266,7 +266,6 @@ userInput.addEventListener('keydown', (e)=>{
   if(e.key === 'Enter') sendBtn.click();
 });
 
-// Quick action buttons
 document.querySelectorAll('.quick-btn').forEach(b=>{
   b.addEventListener('click', ()=>{
     const q = b.dataset.q;

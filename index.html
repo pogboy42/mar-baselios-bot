@@ -1,38 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Lumina — Mar Baselios Public School Chatbot</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="chat-wrapper">
-      <div class="chat-header">
-        <img src="" alt="School Logo" class="logo" />
-        <div class="header-text">
-          <div class="school-name">Mar Baselios Public School</div>
-          <div class="bot-name">Lumina — School Assistant</div>
-        </div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumina Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-      <div id="chat-body" class="chat-body">
-        <div class="bot-message">Hello! I’m Lumina. I can help with information about the school — try asking about admissions, events, faculty, or facilities. You can also use the quick buttons below.</div>
-      </div>
+  <div class="chat-container">
+    <div class="chat-header">LUMINA ✨</div>
+    <div class="bot-name">Mar Baselious Public school</div>
 
-      <div class="quick-actions" id="quick-actions">
-        <button class="quick-btn" data-q="Faculty Details">Faculty Details</button>
-        <button class="quick-btn" data-q="Events">Events</button>
-        <button class="quick-btn" data-q="Admissions">Admissions</button>
-        <button class="quick-btn" data-q="Facilities">Facilities</button>
-      </div>
-
-      <div class="chat-input">
-        <input id="user-input" type="text" placeholder="Ask me about the principal, events, admissions..." />
-        <button id="send-btn">Send</button>
-      </div>
+    <div class="chat-box" id="chat-box">
+      <div class="bot-message message">Hello! 🌙 I’m Lumina — your glowing virtual guide. How can I assist you today?</div>
     </div>
 
-    <script src="lumina.js"></script>
-  </body>
+    <div class="chat-input-area">
+      <input type="text" id="user-input" class="chat-input" placeholder="Type your message..." />
+      <button id="send-btn" class="chat-send">Send</button>
+    </div>
+  </div>
+
+  <script src="lumina.js"></script>
+</body>
 </html>
