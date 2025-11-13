@@ -1,0 +1,31 @@
+:root{
+  --brand:#004f9f;
+  --accent:#f7c948;
+  --bg:#f3f6fb;
+  --bot:#e9f1ff;
+  --me:#ffffff;
+}
+*{box-sizing:border-box;font-family:Segoe UI, Roboto, Arial, sans-serif}
+body{background:linear-gradient(180deg,#f7fbff,var(--bg));display:flex;align-items:center;justify-content:center;height:100vh;margin:0}
+.chat-wrapper{width:380px;background:#fff;border-radius:12px;box-shadow:0 8px 30px rgba(20,40,80,0.12);overflow:hidden;display:flex;flex-direction:column}
+.chat-header{display:flex;align-items:center;padding:12px 14px;background:var(--brand);color:#fff}
+.chat-header .logo{width:44px;height:44px;border-radius:8px;background:var(--accent);margin-right:10px}
+.header-text .school-name{font-weight:700}
+.header-text .bot-name{font-size:12px;opacity:0.9}
+.chat-body{padding:14px;min-height:320px;max-height:420px;overflow:auto;background:linear-gradient(180deg,#f9fbff,#ffffff)}
+.bot-message,.user-message{padding:10px 12px;border-radius:10px;max-width:85%;margin:8px 0;line-height:1.4}
+.bot-message{background:var(--bot);color:#05203a;align-self:flex-start}
+.user-message{background:var(--me);color:#0b2540;align-self:flex-end;border:1px solid #eef3fb}
+.message-row{display:flex;flex-direction:column}
+.chat-input{display:flex;padding:12px;border-top:1px solid #eef3fb}
+.chat-input input{flex:1;padding:10px 12px;border-radius:8px;border:1px solid #d7e3f6}
+.chat-input button{margin-left:8px;padding:10px 14px;background:var(--brand);color:#fff;border:none;border-radius:8px;cursor:pointer}
+.quick-actions{display:flex;gap:8px;padding:10px 12px;border-top:1px solid #f1f5fb;background:#fff}
+.quick-btn{flex:1;padding:8px;border-radius:8px;border:1px solid #dbeafc;background:#fff;cursor:pointer;font-size:13px}
+.reply-buttons{display:flex;gap:8px;margin-top:8px}
+.reply-btn{padding:6px 8px;border-radius:8px;border:1px solid #dbeafc;background:#fff;cursor:pointer;font-size:12px}
+.typing{display:inline-block;width:46px}
+.typing span{display:inline-block;width:8px;height:8px;background:#bcd7ff;border-radius:50%;margin-right:6px;animation:typing 1s infinite}
+.typing span:nth-child(2){animation-delay:0.15s}
+.typing span:nth-child(3){animation-delay:0.3s}
+@keyframes typing{0%{transform:translateY(0);opacity:0.4}50%{transform:translateY(-4px);opacity:1}100%{transform:translateY(0);opacity:0.4}}

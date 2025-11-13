@@ -1,0 +1,210 @@
+{
+  "school": {
+    "name": "Mar Baselios Public School",
+    "location": "Kottayam, Kerala, India",
+    "tagline": "Learning for Life",
+    "affiliation": "CBSE",
+    "established": "2004",
+    "type": "Co-educational English Medium School",
+    "vision": "To nurture morally upright, intellectually competent, socially committed, and spiritually inspired individuals who contribute positively to society.",
+    "mission": "To offer holistic education in a safe, inclusive, and innovative environment, enabling students to realize their full potential.",
+    "motto": "Let Your Light Shine"
+  },
+
+  "about": {
+    "overview": "Mar Baselios Public School is a leading CBSE-affiliated institution under the management of the Mar Baselios Educational and Charitable Society. The school aims to provide a blend of academic excellence, character formation, and modern learning experiences. It emphasizes values, discipline, creativity, and life-oriented education.",
+    "management": {
+      "chairman": "Rev. Fr. Varghese Puthussery",
+      "principal": "Mrs. Neetha Kuruvilla",
+      "vice_principal": "Mrs. Mary P. Joseph",
+      "academic_coordinator": "Mrs. Neethu Thomas"
+    }
+  },
+
+  "infrastructure": {
+    "campus": "Spacious eco-friendly campus with smart classrooms and CCTV security.",
+    "library": "A digital library with over 10,000 books, journals, and e-learning resources.",
+    "labs": {
+      "science_lab": "Equipped with modern apparatus for Physics, Chemistry, and Biology practicals.",
+      "computer_lab": "State-of-the-art computer lab with high-speed internet and latest software.",
+      "language_lab": "Interactive learning space to improve communication skills and pronunciation."
+    },
+    "transport": "Safe and well-maintained fleet of buses covering major routes in and around Kottayam.",
+    "sports_facilities": "Playground, basketball and badminton courts, indoor games, and fitness training zones."
+  },
+
+  "academics": {
+    "curriculum": "Follows the CBSE syllabus with an integrated approach to academics and co-curricular activities.",
+    "streams_offered": ["Science", "Commerce", "Humanities"],
+    "co_curricular": ["Art & Craft", "Music", "Dance", "Physical Education", "Value Education"],
+    "languages": ["English", "Malayalam", "Hindi", "French"]
+  },
+
+  "houses": [
+    {
+      "name": "St. Basil House",
+      "color": "Blue",
+      "motto": "Wisdom and Truth"
+    },
+    {
+      "name": "St. Gregorios House",
+      "color": "Green",
+      "motto": "Faith and Discipline"
+    },
+    {
+      "name": "St. Geevarghese House",
+      "color": "Red",
+      "motto": "Courage and Compassion"
+    },
+    {
+      "name": "St. Dionysius House",
+      "color": "Yellow",
+      "motto": "Unity and Service"
+    }
+  ],
+
+  "student_council": {
+    "president": "Aditya Raj",
+    "vice_president": "Anjali S.",
+    "secretary": "Rahul Mathew",
+    "cultural_secretary": "Sneha B.",
+    "sports_captain": "Arjun Thomas",
+    "vice_captain": "Neha Jose"
+  },
+
+  "clubs": [
+    "Science Club",
+    "Literary Club",
+    "Eco Club",
+    "Math Club",
+    "Quiz Club",
+    "Social Service Club",
+    "Cyber Club"
+  ],
+
+  "events": {
+    "annual_day": "Cultural extravaganza showcasing student talents.",
+    "sports_day": "Track and field events to promote fitness and teamwork.",
+    "science_fair": "Innovation and research-based exhibitions.",
+    "arts_fest": "Inter-house competitions in music, dance, and theatre.",
+    "founders_day": "Celebration honoring the legacy of Mar Baselios."
+  },
+
+  "admissions": {
+    "criteria": "Admission is open to all irrespective of caste, creed, or religion, based on merit and seat availability.",
+    "procedure": "Parents can collect admission forms from the school office or apply online through the website.",
+    "documents_required": [
+      "Birth certificate",
+      "Transfer certificate",
+      "Passport size photographs",
+      "Previous academic records"
+    ]
+  },
+
+  "contact": {
+    "address": "Mar Baselios Public School, Kottayam, Kerala, 686001",
+    "phone": "+91 481 2456789",
+    "email": "info@marbaseliosschool.edu.in",
+    "website": "https://www.marbaseliosschool.edu.in"
+  },
+
+  "faculty": [
+    {
+      "name": "Mrs. Neetha Kuruvilla",
+      "designation": "Principal",
+      "qualification": "M.Sc., B.Ed.",
+      "experience": "25 years",
+      "joined": "2004",
+      "responsibilities": "Academic leadership, staff management, and curriculum planning.",
+      "interests": "Educational innovation, leadership development, and student welfare."
+    },
+    {
+      "name": "Mrs. Mary P. Joseph",
+      "designation": "Vice Principal",
+      "qualification": "M.A., B.Ed.",
+      "experience": "22 years",
+      "joined": "2005",
+      "responsibilities": "Discipline management, timetable coordination, and staff mentoring.",
+      "interests": "Motivational education and student counseling."
+    },
+    {
+      "name": "Mrs. Neethu Thomas",
+      "designation": "Academic Coordinator",
+      "qualification": "M.Sc., B.Ed.",
+      "experience": "15 years",
+      "joined": "2010",
+      "responsibilities": "Academic supervision, CBSE coordination, and internal evaluation.",
+      "interests": "STEM-based teaching and interactive learning."
+    },
+    {
+      "name": "Mr. Rajesh Kumar",
+      "designation": "Physics Teacher",
+      "qualification": "M.Sc. Physics, B.Ed.",
+      "experience": "12 years",
+      "joined": "2012",
+      "classes_handled": "IX to XII",
+      "responsibilities": "Lab experiments, science fair guidance, and board exam preparation.",
+      "interests": "Astronomy and scientific research."
+    },
+    {
+      "name": "Mrs. Elizabeth Varghese",
+      "designation": "Chemistry Teacher",
+      "qualification": "M.Sc. Chemistry, B.Ed.",
+      "experience": "10 years",
+      "joined": "2014",
+      "classes_handled": "IX to XII",
+      "responsibilities": "Chemistry practicals, environmental awareness programs.",
+      "interests": "Applied chemistry and sustainability."
+    },
+    {
+      "name": "Mr. Biju Mathew",
+      "designation": "Mathematics Teacher",
+      "qualification": "M.Sc. Mathematics, B.Ed.",
+      "experience": "14 years",
+      "joined": "2011",
+      "classes_handled": "VIII to XII",
+      "responsibilities": "Math Olympiad coaching and problem-solving sessions.",
+      "interests": "Analytical thinking and logical reasoning."
+    },
+    {
+      "name": "Mrs. Sini Thomas",
+      "designation": "Computer Science Teacher",
+      "qualification": "MCA, B.Ed.",
+      "experience": "9 years",
+      "joined": "2016",
+      "classes_handled": "VI to XII",
+      "responsibilities": "Coding club mentor, ICT integration, and digital literacy.",
+      "interests": "AI, web development, and digital tools in education."
+    },
+    {
+      "name": "Mrs. Divya R.",
+      "designation": "English Teacher",
+      "qualification": "M.A. English, B.Ed.",
+      "experience": "13 years",
+      "joined": "2010",
+      "classes_handled": "VIII to XII",
+      "responsibilities": "Language lab coordination and literary club in-charge.",
+      "interests": "Creative writing and theatre."
+    },
+    {
+      "name": "Mr. John Kuriakose",
+      "designation": "Physical Education Teacher",
+      "qualification": "B.P.Ed.",
+      "experience": "11 years",
+      "joined": "2013",
+      "classes_handled": "I to XII",
+      "responsibilities": "Sports training, inter-school competitions, and fitness management.",
+      "interests": "Athletics and coaching."
+    },
+    {
+      "name": "Mrs. Riya Joseph",
+      "designation": "Art & Craft Teacher",
+      "qualification": "BFA",
+      "experience": "7 years",
+      "joined": "2018",
+      "classes_handled": "I to X",
+      "responsibilities": "Art exhibitions, decoration, and creative workshops.",
+      "interests": "Painting and design."
+    }
+  ]
+}
